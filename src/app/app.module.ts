@@ -44,3 +44,14 @@ export class AppModule {
 // 9
 // 10
 // No more data in stream
+
+/*
+An Observer is a consumer of values delivered by an Observable. 
+
+Observers are simply a set of callbacks, one for each type of notification delivered by the Observable: 
+next, error, and complete. 
+
+next is called whenever a new data value is emitted by an observable. 
+error is called when an error has occurred. 
+complete is called to let the user know that now there is no more data left to emit.
+*/
